@@ -1,0 +1,21 @@
+[versions]
+agp = "8.8.1"
+kotlin = "2.1.0"
+flutterLoader = "1.0.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.6.1"
+activityCompose = "1.8.0"
+composeBom = "2024.04.01"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+flutter-loader = { id = "dev.flutter.flutter-plugin-loader", version.ref = "flutterLoader" }
+flutter-plugin = { id = "dev.flutter.flutter-gradle-plugin"}
